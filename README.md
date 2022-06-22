@@ -15,3 +15,5 @@ This project is a simple online canvas, at the moment you can only:
 -Draw on the canvas with the keyboard arrows and mouse.
 
 Notice: The edges color changes dynamically, it's opposite color of the canvas.
+
+You can try it [here](https://eduardogarciagalvan.github.io/Paint/paint.html "here")
