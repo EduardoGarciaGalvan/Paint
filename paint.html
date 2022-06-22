@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Paint</title>
+        <style>
+            body.page{
+                margin: 0px 0px 0px 0px;
+                overflow: hidden;
+            }
+            .column2{
+                user-select: none;
+            }
+        </style>
+    </head>
+    <body class = "page">
+        <table>
+            <tr>
+                <td>
+                    <canvas id="theZone"></canvas>
+                </td>
+                <td class = "column2">
+                    <H1>Welcome to your canvas</H1>
+                    <p>
+                        Use the keyboard arrows to draw.
+                    </p>
+                    <p>
+                        <input type="color" id="canvasColor"/>
+                        Select your canvas color.
+                        <br/>
+                        <input type="color" id="penColor"/>
+                        Select your pen color.
+                    </p>
+                    <p>
+                        <input type="checkbox" id="drawEdges"/> <strong>Edges</strong>
+                        <br>
+                        <input type="button" id="removeLines" value="Remove Lines"/>
+                        <input type="button" id="resetPaint" value="Reset"/>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <script src="paint.js"></script>
+    </body>
+</html>
